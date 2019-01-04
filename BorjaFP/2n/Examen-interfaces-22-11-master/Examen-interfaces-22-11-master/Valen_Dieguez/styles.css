@@ -1,0 +1,123 @@
+.header{
+
+
+}
+
+body{
+    width: 900px;
+    background-color: #EDF6F3;
+    align-content: center;
+    margin: auto;
+    font-size: 15px;
+    font-family: "Times New Roman";
+
+}
+
+nav {
+    margin-left: -4.1%;
+}
+
+nav li {
+
+    float: left;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #958175;
+    width: 122px;
+    height: 49px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 130%;
+
+
+}
+
+nav li a:active {
+   color: #e4e1bd;
+    background-color: #745745;
+}
+
+nav li a:hover {
+    background-color: #6d6157;
+}
+
+h1{
+    color: #316e66;
+    margin: 15px;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+    color:#316e66;
+}
+
+h4 a{
+    color: #5a4535;
+}
+
+#header {
+    background-image: url("images/logo.jpg");
+    width: 118px;
+    height: 112px;
+}
+
+.pText{
+font-size: 15px;
+    color:#5a4535;
+}
+
+#contents-left {
+
+    width: 565px;
+    text-indent: 10px;
+    text-align: left;
+
+}
+
+.news{
+     font-size: 15px;
+    color: #5a4535;
+    border-bottom: dotted;
+    height: 144px;
+}
+
+.aside{
+    width: 285px;
+    float: right;
+    margin-top: -490px;
+}
+.asideBox{
+width: 285px;
+    height: 144px;
+    margin-top: 12px;
+}
+
+.newslink:hover{
+    color: darkgreen;
+}
+
+.asideBox :hover{
+    opacity: 50%;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color:#594334;
+    height: 50px;
+}
+.icon{
+    margin-top: 8px;
+    margin-right: 15px;
+    background-color:#594334;
+    float: right;
+    width: 35px;
+    height: 35px;
+    vertical-align: sub;
+}
